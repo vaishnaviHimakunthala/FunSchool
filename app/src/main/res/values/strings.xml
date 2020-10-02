@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">com.example.app.MainActivity.App</string>
+    <string name="SashiDo_server_url">https://pg-app-tcbt8h75fl11zv9cv0zqzes6ebsjef.scalabl.cloud/1//</string>
+
+    <!-- Change the following strings as required -->
+    <string name="SashiDo_app_id">x3vEjzNtcqm2dnSJIQLq0Z5JQVQNDRE3TOndRNFQ</string>
+    <string name="SashiDo_client_key">2WGW05eV8Ql32cbd5Dg1m9nORFSN3RDVqlUQEEnQ</string>
+    <color name="lightBlue">#90CAF9</color>
+    <color name="white">#FFFFFF</color>
+</resources>

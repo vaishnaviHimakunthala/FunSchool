@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/pic"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightBlue"
+    tools:context=".Learn"
+    >
+
+
+    <Button
+        android:id="@+id/buttonAD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="71dp"
+        android:layout_marginEnd="276dp"
+        android:layout_marginBottom="560dp"
+        android:background="@drawable/circle_button"
+        android:text="A-D"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/buttonEH"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="71dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="560dp"
+        android:background="@drawable/circle_button2"
+        android:text="E-H"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/buttonAD"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonIL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="78dp"
+        android:layout_marginEnd="272dp"
+        android:layout_marginBottom="381dp"
+        android:background="@drawable/circle_button2"
+        android:text="I-L"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonAD" />
+
+    <Button
+        android:id="@+id/buttonMP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="131dp"
+        android:layout_marginTop="79dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginBottom="381dp"
+        android:background="@drawable/circle_button"
+        android:text="M-P"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/buttonIL"
+        app:layout_constraintTop_toBottomOf="@+id/buttonEH" />
+
+    <Button
+        android:id="@+id/buttonQT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="58dp"
+        android:layout_marginEnd="266dp"
+        android:layout_marginBottom="223dp"
+        android:background="@drawable/circle_button"
+        android:text="Q-T"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonIL" />
+
+    <Button
+        android:id="@+id/buttonUX"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="106dp"
+        android:layout_marginTop="58dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="223dp"
+        android:background="@drawable/circle_button2"
+        android:text="U-X"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/buttonQT"
+        app:layout_constraintTop_toBottomOf="@+id/buttonMP" />
+
+    <Button
+        android:id="@+id/buttonYZ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="79dp"
+        android:layout_marginEnd="264dp"
+        android:layout_marginBottom="44dp"
+        android:background="@drawable/circle_button"
+        android:text="Y-Z"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonQT"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="52dp"
+        android:background="@drawable/circle_button"
+        android:text="Picture"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/buttonYZ"
+        app:layout_constraintTop_toBottomOf="@+id/buttonUX" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
